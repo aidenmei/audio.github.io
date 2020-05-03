@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<audio id="myAudio1">
+
+<source src=" Alan Walker - Fade.m4r" type="audio/mpeg">
+
+</audio>
+
+<audio id="myAudio2">
+
+<source src=" Matteo - Panama.m4r" type="audio/mpeg">
+
+</audio>
+
+<audio id="myAudio3">
+
+<source src=" R. Kelly - I Believe I Can Fly.m4r" type="audio/mpeg">
+
+</audio>
+
+<audio id="myAudio4">
+
+<source src=" Russ - Psycho.m4r" type="audio/mpeg">
+
+</audio>
+
+<audio id="myAudio5">
+
+<source src=" Sarah Engels - I Miss You.m4r" type="audio/mpeg">
+
+</audio>
+
+<p>Click the buttons to play </p>
+
+<button onclick="playAudio1()" type="button">Play Audio1</button>
+
+<button onclick="playAudio2()" type="button">Play Audio2</button>
+
+<button onclick="playAudio3()" type="button">Play Audio3</button>
+
+<button onclick="playAudio4()" type="button">Play Audio4</button>
+
+<button onclick="playAudio5()" type="button">Play Audio5</button>
+
+<button onclick="stop()" type="button">Stop</button>
+
+
+
+<script>
+
+var a = document.getElementById("myAudio1");
+
+var b = document.getElementById("myAudio2");
+
+var c = document.getElementById("myAudio3");
+
+var d = document.getElementById("myAudio4");
+
+var e = document.getElementById("myAudio5");
+
+
+
+function playAudio1() {
+
+a.play();
+
+b.pause();
+
+c.pause();
+
+d.pause();
+
+e.pause();
+
+}
+
+function playAudio2() {
+
+b.play();
+
+a.pause();
+
+c.pause();
+
+d.pause();
+
+e.pause();
+
+}
+
+function playAudio3() {
+
+c.play();
+
+b.pause();
+
+a.pause();
+
+d.pause();
+
+e.pause();
+
+}
+
+function playAudio4() {
+
+d.play();
+
+b.pause();
+
+c.pause();
+
+a.pause();
+
+e.pause();
+
+}
+
+function playAudio5() {
+
+e.play();
+
+b.pause();
+
+c.pause();
+
+d.pause();
+
+a.pause();
+
+}
+
+function stop(){
+
+a.pause();
+
+b.pause();
+
+c.pause();
+
+d.pause();
+
+e.pause();
+
+}
+
+</script>
+
+</body>
+
+</html>
